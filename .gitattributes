@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+context('Fire Protection', () => {
+    it('Should open Google browser', () => {
+        cy.visit('https://google.co.nz')
+
+        cy.get('#input').type('fire pro').should('have.value', 'fire pro')
+
+    })
+})
