@@ -1,6 +1,22 @@
 {
+    "name": "partfolio-cypress-triangle-search-google-autotest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
     "devDependencies": {
         "cypress": "^9.6.0"
-    }
-
+    },
+    "scripts": {
+        "test": "cypress open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CostaPunch/Partfolio-cypress-triangle-search-google-autotest.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CostaPunch/Partfolio-cypress-triangle-search-google-autotest/issues"
+    },
+    "homepage": "https://github.com/CostaPunch/Partfolio-cypress-triangle-search-google-autotest#readme"
 }

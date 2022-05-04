@@ -6,11 +6,14 @@
 // https://on.cypress.io/writing-first-test
 
 
-context('Fire Protection', () => {
+context('Google open', () => {
     it('Should open Google browser', () => {
         cy.visit('https://google.co.nz')
+    })
+})
 
-        cy.get('#input').type('fire pro').should('have.value', 'fire pro')
-
+context('ENTER button', () => {
+    it('Should type and trigger enter', () => {
+        cy.get('[type="text"]').type('fire pro').type('{enter}')
     })
 })
